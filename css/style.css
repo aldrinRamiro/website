@@ -1,21 +1,24 @@
-header{
+header {
 	background-color: #004D04;
 	height: 48px;
 	border-bottom: 1px solid #fff;
 }
+
 h1 {
 	color: #ffffff;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 24px;
 	text-transform: uppercase;
 	padding: 12px 0 12px 24px;
-}	
+}
+
 h2 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 32px;
 	color: #00640B;
 	margin: 0 40px;
 }
+
 p {
 	font-family: Georgia;
 	font-size: 18px;
@@ -23,11 +26,13 @@ p {
 	margin: 20px 40px;
 	color: #333;
 }
-img {
+
+p img {
 	float: right;
 	width: 200px;
 	margin: 0 0 20px 20px;
 }
+
 div#banner {
 	background-image: url("../images/toronto.jpg");
 	background-size: cover;
@@ -37,7 +42,8 @@ div#banner {
 	background-repeat: no-repeat;
 	clear: both;
 }
-div#videoreel{
+
+div#videoreel {
 	width: 100%;
 	height: 395px;
 	margin: 40px;
@@ -45,6 +51,7 @@ div#videoreel{
 	text-align: center;
 	padding: 40px 0;
 }
+
 cite {
 	font-size: 10px;
 	float: right;
@@ -53,15 +60,18 @@ cite {
 	font-style: italic;
 	margin: 20px;
 }
+
 nav {
 	clear: both;
 }
+
 ul {
 	margin: 20px;
 	text-align: center;
 }
+
 li {
-	font:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 16px;
 	text-transform: uppercase;
 	border: 1px solid #000;
@@ -69,4 +79,65 @@ li {
 	margin: 10px;
 	display: inline;
 	background-color: #eee;
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+nav ul li a {
+	color: darkred;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #000;
+}
+
+p a {
+	color: #0000ff;
+	text-decoration: underline;
+}
+
+p a:visited,
+p a:active {
+	color: #00ff00;
+}
+
+p a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+p a img:hover {
+	border: 2px solid #000;
+}
+
+#features {
+	margin: 0 auto;
+}
+
+#features .homepage-feature {
+	width: 25%;
+	float: left;
+
+}
+
+#features .homepage-feature img {
+	width: 80%;
+}
+
+#features .homepage-feature h2 {
+	font-family: arial;
+	color: #003366;
+	text-transform: uppercase;
+	margin: 10px;
+	font-size: 16px;
+}
+
+#features .homepage-feature p {
+	font-family: arial;
+	margin: 10px;
+	font-size: 14px;
 }
