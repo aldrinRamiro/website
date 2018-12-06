@@ -35,87 +35,90 @@
 		<nav>
 			<a class="active" href="./index.html">Home</a>
 			<a href="./process.html">Process</a>
-			<a href= "./projects.html"">Projects</a>
-			<a href="./connect.html">Connect</a>
-		</nav>
+			<a href="./projects.html"">Projects</a>
+			<a href=" ./connect.html">Connect </a> </nav> </header> <!-- Slideshow -->
+				<div class="slideshow">
 
-	</header>
+					<div class="mySlides fade">
+						<a href="./process.html"><img src="images/process_p.jpg" alt="Blurred image of code" style="width:100%"></a>
+						<a href="./process.html">
+							<div class="text">Learn how this site was created.</div>
+						</a>
+					</div>
 
-	<!-- Slideshow -->
-	<div class="slideshow">
+					<div class="mySlides fade">
+						<a href="./projects.html"><img src="images/project_p.jpg" alt="Blurred image of chat bot" style="width:100%"></a>
+						<a href="./projects.html">
+							<div class="text">View my personal projects.</div>
+						</a>
+					</div>
 
-		<div class="mySlides fade">
-			<img src="images/process_p.jpg" style="width:100%">
-			<div class="text">Learn how this site was created.</div>
-		</div>
+					<div class="mySlides fade">
+						<a href="./connect.html"><img src="images/image_p.jpg" alt="Blurred image of social media page" style="width:100%"></a>
+						<a href="./connect.html">
+							<div class="text">Connect with me.</div>
+						</a>
+					</div>
 
-		<div class="mySlides fade">
-			<a href="./projects.html"><img src="images/project_p.jpg" style="width:100%"></a>
-			<a href="./projects.html"><div class="text">View my personal projects.</div></a>
-		</div>
+					<!-- Next and previous buttons -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
 
-		<div class="mySlides fade">
-			<img src="images/image_p.jpg" style="width:100%">
-			<div class="text">Connect with me.</div>
-		</div>
-
-		<!-- Next and previous buttons -->
-		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-	<br>
-
-	<!-- dot selector -->
-	<div style="text-align:center">
-		<span class="dot" onclick="currentSlide(1)"></span>
-		<span class="dot" onclick="currentSlide(2)"></span>
-		<span class="dot" onclick="currentSlide(3)"></span>
-	</div>
-
-
-	<main>
-		<h2>Welcome!</h2>
-		<p>
-			<img src="images/dog.jpg" ; alt="photo of dog"; id="profile-picture">
-			Aldrin Ramiro is a computer science and CCIT student from the University of Toronto. Currently, he is looking for a
-			12-16 month internship position beginning this upcoming summer, in a computer science related job. He has experience
-			with multiple languages such as Java and Python, which can be seen through different side projects. Outside of
-			technical skills, he has built leadership and teamwork experience through advising and leading clubs and through
-			volunteering positions.
-		</p>
-		<ul id="hp-buttons">
-			<a href="./assets/ALDRIN_RAMIRO_Resume.pdf" target="_blank">
-				<li>Resume</li>
-			</a>
-			<a href="./assets/ALDRIN_RAMIRO_Resume.pdf" target="_blank">
-				<li>Connect</li>
-			</a>
-		</ul>
+				<!-- dot selector -->
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
 
 
-		<!-- video section -->
-		<!-- <div id="videoreel">
+				<main>
+					<h2>Bio In Brief</h2>
+					<p>
+						<img src="images/dog.jpg" ; alt="Portrait of Aldrin" ; id="profile-picture">
+						Aldrin Ramiro is a computer science and CCIT student from the University of Toronto. Currently, he is looking for
+						a
+						12-16 month internship position beginning this upcoming summer, in a computer science related job. He has
+						experience
+						with multiple languages such as Java and Python, which can be seen through different side projects. Outside of
+						technical skills, he has built leadership and teamwork experience through advising and leading clubs and through
+						volunteering positions.
+					</p>
+					<ul id="hp-buttons">
+						<a href="./assets/ALDRIN_RAMIRO_Resume.pdf" target="_blank">
+							<li>Resume</li>
+						</a>
+						<a href="./connect.html">
+							<li>Connect</li>
+						</a>
+					</ul>
+
+
+					<!-- video section -->
+					<!-- <div id="videoreel">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/NxF-TcXNt5w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		 allowfullscreen></iframe>
 	</div> -->
 
 
 
-	</main>
+				</main>
 
-	<footer>
-		<a href="https://www.linkedin.com/in/aldrin-ramiro/" target="_blank">
-			<img src="images/In-White-34px-TM.png">
-		</a>
+				<footer>
+					<a href="https://www.linkedin.com/in/aldrin-ramiro/" target="_blank">
+						<img src="images/In-White-34px-TM.png" alt="LinkedIn Icon">
+					</a>
 
-		<a href="https://github.com/aldrinRamiro" target="_blank">
-			<img src="images/GitHub-Mark-Light-32px.png">
-		</a>
-	</footer>
+					<a href="https://github.com/aldrinRamiro" target="_blank">
+						<img src="images/GitHub-Mark-Light-32px.png" alt="GitHub Icon">
+					</a>
+				</footer>
 
-	<script src="js/slideshow.js">
-		currentSlide(1);
-	</script>
+				<script src="js/slideshow.js">
+					currentSlide(1);
+				</script>
 </body>
 
 </html>

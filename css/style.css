@@ -43,11 +43,12 @@ h2 {
 	clear: both;
 	font-family: 'Roboto Slab', serif;
 	font-size: 42px;
-	color: #00640B;
+	color: #000;
 	margin: 0 40px;
 }
 
 h2.inner-header {
+	clear:both;
 	margin: 0;
 	padding: 10px 0;
 	text-align: center;
@@ -61,11 +62,37 @@ p {
 	font-size: 18px;
 	line-height: 22px;
 	margin: 20px 40px;
-	color: #333;
+	color: #000;
 }
 
-p#projects-sub {
-	margin: 25px 0 0 0;
+p.inner-sub {
+	clear: both;
+	font-weight: bold;
+	margin: 25px 0 10px 0;
+}
+
+.process-img{
+	float: left;
+	width: 49%;
+	padding: 0 4px 0 0;
+}
+
+.process-sketch-img{
+	margin: 0 5px 5px 0;
+	float: left;
+	width: 30%;
+}
+
+#connect-container{
+	height: 400px;
+}
+
+.connect-p {
+	margin: 20px 0 20px 0;
+}
+
+.connect-icons {
+	margin-right: 10px;
 }
 
 #profile-picture {
