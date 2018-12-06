@@ -54,10 +54,12 @@ p {
 	color: #333;
 }
 
-p img {
+#profile-picture {
 	float: right;
-	width: 200px;
-	margin: 0 0 20px 20px;
+	max-width: 200px;
+	margin: 0 0 15px 15px;
+	border: 1px solid #000;
+	border-radius: 100%;
 }
 
 div#banner {
@@ -88,7 +90,6 @@ cite {
 }
 
 
-
 nav a:hover,
 nav a.active:hover {
 	background-color: #00bf11;
@@ -107,6 +108,7 @@ body {
 main {
 	width: 90%;
 	margin: 0 auto;
+	padding-bottom: 100px;
 }
 
 nav ul li a {
@@ -167,14 +169,13 @@ footer {
 	background: #000;
 	color: #555555;
 	width: 100%;
-	height: 80px;
-	margin-top: 130px;
-	position: fixed;
+	height: 50px;
+	position: relative;
 	bottom: 0;
 }
 
 footer a img {
-	margin: 24px 20px 0 0;
+	margin: 12px 20px 0 0;
 	float: right;
 	text-align: center;
 }
@@ -210,7 +211,7 @@ table {
 	color: black;
 }
 
-#hp-buttons a{
+#hp-buttons a {
 	text-decoration: none;
 	color: #fff;
 }
