@@ -36,14 +36,24 @@ nav a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	padding: 12px 0;
+	line-height: 24px;
 }
 
 h2 {
 	clear: both;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 32px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 42px;
 	color: #00640B;
 	margin: 0 40px;
+}
+
+h2.inner-header {
+	margin: 0;
+	padding: 10px 0;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	width: 100%;
 }
 
 p {
@@ -52,6 +62,10 @@ p {
 	line-height: 22px;
 	margin: 20px 40px;
 	color: #333;
+}
+
+p#projects-sub {
+	margin: 25px 0 0 0;
 }
 
 #profile-picture {
@@ -137,8 +151,18 @@ p a:active {
 
 
 #features {
-	clear: both;
-	margin: 0 auto;
+	margin: 10px auto;
+	padding-top: 40px;
+	padding-bottom: 400px;
+}
+
+#features .homepage-feature h2 a {
+	color: #0000EE;
+	text-decoration: none;
+}
+
+#features .homepage-feature h2 a:hover {
+	color: #551A8B;
 }
 
 #features .homepage-feature {
@@ -152,20 +176,25 @@ p a:active {
 }
 
 #features .homepage-feature h2 {
-	font-family: arial;
+	clear: both;
+	height: 50px;
+	border-bottom: 1px solid #000;
 	color: #003366;
 	text-transform: uppercase;
-	margin: 10px;
-	font-size: 16px;
+	margin: 0 20% 0 0;
+	padding: 20px 3px 0 0;
+	font-size: 20px;
 }
 
 #features .homepage-feature p {
-	font-family: arial;
-	margin: 10px;
+	height: 200px;
+	margin: 0px 20% 0 0;
+	padding: 5px 3px;
 	font-size: 14px;
 }
 
 footer {
+	clear: both;
 	background: #000;
 	color: #555555;
 	width: 100%;
@@ -197,6 +226,7 @@ table {
 }
 
 #hp-buttons li {
+	font-family: 'Open Sans', sans-serif;
 	background: #006309;
 	float: left;
 	list-style: none;
@@ -264,17 +294,19 @@ table {
 
 /* Caption text */
 .text {
+	font-family: 'Open Sans', sans-serif;
 	width: 60%;
 	margin: auto;
 	color: #f2f2f2;
 	background-color: rgba(0, 0, 0, 0.5);
 	font-size: 16px;
-	padding: 12px 0;
+	padding: 14px 0;
 	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 15%;
 	height: 24px;
+	line-height: 24px;
 	text-align: center;
 
 }
