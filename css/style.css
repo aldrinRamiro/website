@@ -13,6 +13,10 @@ h1#name {
 	padding: 0.25em 0 0 .5em;
 }
 
+h1#name:hover {
+	color: #ddd;
+}
+
 nav {
 	float: right;
 	background-color: #333;
@@ -85,7 +89,8 @@ cite {
 
 
 
-nav a:hover, nav a.active:hover {
+nav a:hover,
+nav a.active:hover {
 	background-color: #00bf11;
 	color: black;
 }
@@ -98,6 +103,7 @@ nav a.active {
 body {
 	background-color: #eee;
 }
+
 main {
 	width: 90%;
 	margin: 0 auto;
@@ -112,9 +118,11 @@ nav ul li a:hover {
 	color: #000;
 }
 
+
 p {
 	font-family: 'Open Sans', sans-serif;
 }
+
 p a {
 	color: #0000EE;
 	text-decoration: underline;
@@ -125,13 +133,6 @@ p a:active {
 	color: #551A8B;
 }
 
-p a:hover {
-	text-decoration: none;
-}
-
-p a img:hover {
-	border: 2px solid #000;
-}
 
 #features {
 	clear: both;
@@ -163,10 +164,24 @@ p a img:hover {
 }
 
 footer {
-	height: 200px;
-	background: #888888;
-	width: 90%;
-	margin: 40px auto;
+	background: #000;
+	color: #555555;
+	width: 100%;
+	height: 80px;
+	margin-top: 130px;
+	position: fixed;
+	bottom: 0;
+}
+
+footer a img {
+	margin: 24px 20px 0 0;
+	float: right;
+	text-align: center;
+}
+
+a img {
+	text-decoration: none;
+	border: 0 none;
 }
 
 td,
@@ -180,9 +195,24 @@ table {
 
 }
 
-#music {
-	display:block;
-	margin: 0 auto;
+#hp-buttons li {
+	background: #006309;
+	float: left;
+	list-style: none;
+	text-align: center;
+	margin: 0 10px 0 40px;
+	width: 100px;
+	line-height: 50px;
+}
+
+#hp-buttons li:hover {
+	background-color: #00bf11;
+	color: black;
+}
+
+#hp-buttons a{
+	text-decoration: none;
+	color: #fff;
 }
 
 /* Slideshow */
@@ -195,6 +225,11 @@ table {
 /* Hide the images by default */
 .mySlides {
 	display: none;
+}
+
+.mySlides:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 
 /* Next & previous buttons */
