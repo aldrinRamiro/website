@@ -19,7 +19,7 @@ h1#name:hover {
 
 nav {
 	float: right;
-	background-color: #333;
+	background-color: #222;
 	overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ h2.inner-header {
 }
 
 p {
-	font-family: Georgia;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	line-height: 22px;
 	margin: 20px 40px;
@@ -75,6 +75,7 @@ p.inner-sub {
 	float: left;
 	width: 49%;
 	padding: 0 4px 0 0;
+	margin-bottom: 20px;
 }
 
 .process-sketch-img{
@@ -83,8 +84,14 @@ p.inner-sub {
 	width: 30%;
 }
 
+/* Container so footer stays at bottom of page */
 #connect-container{
-	height: 400px;
+	height: 700px;
+}
+
+/* Container so footer stays at bottom of page */
+#home-container{
+	height: 600px;
 }
 
 .connect-p {
@@ -97,20 +104,10 @@ p.inner-sub {
 
 #profile-picture {
 	float: right;
-	max-width: 200px;
+	max-width: 250px;
 	margin: 0 0 15px 15px;
-	border: 1px solid #000;
+	border: 1px solid #ccc;
 	border-radius: 100%;
-}
-
-div#banner {
-	background-image: url("../images/toronto.jpg");
-	background-size: cover;
-	background-position: left top;
-	height: 400px;
-	width: 100%;
-	background-repeat: no-repeat;
-	clear: both;
 }
 
 div#videoreel {
@@ -119,15 +116,6 @@ div#videoreel {
 	background-color: #ddd;
 	text-align: center;
 	padding-top: 50px;
-}
-
-cite {
-	clear: both;
-	font-size: 10px;
-	float: right;
-	color: #555555;
-	font-style: italic;
-	margin: 20px;
 }
 
 
@@ -152,20 +140,6 @@ main {
 	padding-bottom: 100px;
 }
 
-nav ul li a {
-	color: darkred;
-	text-decoration: none;
-}
-
-nav ul li a:hover {
-	color: #000;
-}
-
-
-p {
-	font-family: 'Open Sans', sans-serif;
-}
-
 p a {
 	color: #0000EE;
 	text-decoration: underline;
@@ -183,37 +157,38 @@ p a:active {
 	padding-bottom: 400px;
 }
 
-#features .homepage-feature h2 a {
-	color: #0000EE;
+#features .project-feature h2 a {
+	color: #000EE0;
 	text-decoration: none;
 }
 
-#features .homepage-feature h2 a:hover {
+#features .project-feature h2 a:hover {
 	color: #551A8B;
 }
 
-#features .homepage-feature {
+#features .project-feature {
 	width: 25%;
 	float: left;
-
 }
 
-#features .homepage-feature img {
+#features .project-feature img {
+	border: 2px solid #333;
 	width: 80%;
 }
 
-#features .homepage-feature h2 {
+#features .project-feature h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 	clear: both;
 	height: 50px;
 	border-bottom: 1px solid #000;
-	color: #003366;
 	text-transform: uppercase;
 	margin: 0 20% 0 0;
 	padding: 20px 3px 0 0;
 	font-size: 20px;
 }
 
-#features .homepage-feature p {
+#features .project-feature p {
 	height: 200px;
 	margin: 0px 20% 0 0;
 	padding: 5px 3px;
@@ -230,6 +205,7 @@ footer {
 	bottom: 0;
 }
 
+/* Icons in footer */
 footer a img {
 	margin: 12px 20px 0 0;
 	float: right;
@@ -239,17 +215,6 @@ footer a img {
 a img {
 	text-decoration: none;
 	border: 0 none;
-}
-
-td,
-th {
-	border: 1px solid black;
-	padding: 1em;
-}
-
-table {
-	margin: 2em auto;
-
 }
 
 #hp-buttons li {
@@ -325,7 +290,7 @@ table {
 	width: 60%;
 	margin: auto;
 	color: #f2f2f2;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 	font-size: 16px;
 	padding: 14px 0;
 	position: absolute;
@@ -344,7 +309,7 @@ table {
 	cursor: pointer;
 	height: 15px;
 	width: 15px;
-	margin: 0 2px;
+	margin: 0 2px 25px 2px;
 	background-color: #ddd;
 	border-radius: 50%;
 	display: inline-block;
